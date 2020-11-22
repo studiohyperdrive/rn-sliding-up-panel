@@ -21,6 +21,7 @@ export interface SlidingUpPanelProps {
   onMomentumDragStart?: (value: number) => void
   onMomentumDragEnd?: (value: number) => void
   onBottomReached?: () => any
+  onSnapReached?: (value: number) => any
   allowMomentum?: boolean
   allowDragging?: boolean
   showBackdrop?: boolean
